@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #e6e5eb;
+    --cor1: #7b73a0;
+    --cor2: #574d85;
+    --cor3: #4a3370;
+    --cor4: #372258;
+    --cor5: #2e1a4e;
+    
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: var(--font-padrao);
+    font-size: 20px
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    float: top;
+    margin-right: 10px;
+}
+
+header > h1 {
+    color: white;
+}
+
+header > p {
+    color: white;
+}
+
+nav {
+    background-color: var(--cor5);
+    padding: 10px;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.420);
+    text-align: center;
+ 
+}
+ 
+nav > a {
+    color: var(--cor1);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+nav > a:hover {
+    background-color: var(--cor3);
+    color: var(--cor5);
+}
+
+footer {
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    text-align: center;
+}
+  
+nav li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    color: var(--cor5);
+    font-size: 1.5em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 5px
+}
+     
+main h2 {
+    color: var(--cor4);
+    font-size: 1.5em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 5px;
+}
+     
+main p {
+    margin: 10px 0px;
+    text-align: justify;
+    font-size: 1em;
+}
+     
+main strong {
+    color: var(--cor4);
+    font-weight: bold;
+}
+     
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    padding: 2px 6px;
+}
+
+main img {
+    width: 50%;
+}
+
+aside {
+    background-color: var(--cor1);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
+}
+ 
+aside > h3 { 
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+    text-align: justify;
+    color: var(--cor5);
+    font-weight: bold;
+}
+
+    
